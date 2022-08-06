@@ -1,0 +1,1687 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "claimm4",
+      "title": "ClaimM4",
+      "styling": {
+        "primaryColor": "#000000",
+        "secondaryColor": "#5c6873",
+        "successColor": "#d4e7eb",
+        "infoColor": "#000000",
+        "warningColor": "#67beb0",
+        "dangerColor": "#afd3ce",
+        "mainFont": "DM Sans",
+        "display1Font": "DM Sans",
+        "display1Size": 4.11,
+        "display2Font": "DM Sans",
+        "display2Size": 3.56,
+        "display5Font": "DM Sans",
+        "display5Size": 2.33,
+        "display7Font": "DM Sans",
+        "display7Size": 1,
+        "display4Font": "DM Sans",
+        "display4Size": 1.11,
+        "isRoundedButtons": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Device Repair Service",
+      "nameSelectPreset": "DeviceRepairService",
+      "presetSourceTheme": "claimm4"
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Device Repair Service",
+    "versionFirst": "5.6.11",
+    "siteFonts": [
+      {
+        "css": "'DM Sans', sans-serif",
+        "name": "DM Sans",
+        "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
+      }
+    ],
+    "imageResize": true,
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/hafsa-logo-2-kopyas-25.svg",
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "PWA": {
+      "enabled": true,
+      "name": "Device Repair Service",
+      "icon": "@PROJECT_PATH@/assets/images/hafsa-logo-2-kopyas-26.svg",
+      "themeColor": "#000000"
+    },
+    "mbrsiteDomain": "bw3z1ooib6",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "gdpr": false,
+    "pwa-switcher": true,
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "uniqCompNum": 1,
+    "versionPublish": "5.6.11"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px",
+              "padding": "0.5rem 0",
+              "box-shadow": "0 0 15px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".navbar-buttons when (@showButtons)": {
+              "flex-wrap": "wrap"
+            },
+            ".show": {
+              "overflow": "visible"
+            },
+            ".dropdown-menu": {
+              "max-height": "400px",
+              "overflow": "auto"
+            },
+            ".dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem 1.25rem !important",
+                "-webkit-align-items": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "1rem",
+                "padding": "0",
+                "transition": "padding 0.2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": "0.3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex",
+                    "width": "auto"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "padding-right": "1rem",
+              "max-width": "100%",
+              "width": "100%",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            "& when (@showItems)": {
+              ".navbar-toggleable-sm .navbar-collapse": {
+                "justify-content": "space-between !important"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "box-shadow": "0 0 15px 0 rgba(0, 0, 0, 0.1)",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "none",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all 0.2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important",
+                  "width": "auto"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "position": "absolute",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".navbar:not(.collapsed)": {
+                "flex-direction": "row",
+                "flex-wrap": "nowrap"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".outstanding": {
+                "display": "-webkit-flex",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem 1.25rem !important",
+                "-webkit-align-items": "center"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing, &.show": {
+                  "display": "block !important",
+                  "overflow": "auto",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 992px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "(100vh - ((15 * @logoSize) / 8))"
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": "0.5s",
+                  "transition-property": "opacity, padding, height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle='dropdown-submenu']::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": "0.3em",
+                  "vertical-align": "middle",
+                  "content": "''",
+                  "border-top": "0.3em solid",
+                  "border-right": "0.3em solid transparent",
+                  "border-left": "0.3em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing, &.show": {
+                  "display": "block !important",
+                  "overflow": "auto",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": "0.5s",
+                  "transition-property": "opacity, padding, height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle='dropdown-submenu']::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": "0.3em",
+                  "vertical-align": "middle",
+                  "content": "''",
+                  "border-top": "0.3em solid",
+                  "border-right": "0.3em solid transparent",
+                  "border-left": "0.3em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".nav-link": {
+                "justify-content": "start !important"
+              },
+              ".navbar.opened": {
+                "height": "100vh",
+                "overflow-y": "scroll",
+                "overflow-x": "hidden"
+              },
+              ".navbar-toggleable-sm": {
+                "width": "100% !important"
+              },
+              ".dropdown-menu": {
+                "box-shadow": "inset 0 0 15px 0 rgba(0, 0, 0, 0.1) !important",
+                "background": "#efefef !important"
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important",
+              "opacity": ".75"
+            },
+            ".nav-link:active, .dropdown-item:active": {
+              "color": "@warningColor"
+            },
+            "@media (min-width: 1500px)": {
+              ".navbar-toggleable-sm .navbar-collapse": {
+                "max-width": "90% !important",
+                "padding-right": "5rem"
+              },
+              ".menu-logo .navbar-brand": {
+                "margin-left": "5rem"
+              }
+            },
+            ".outstanding": {
+              "display": "inline-block",
+              "padding": "0 2rem",
+              "vertical-align": "middle",
+              "margin": "0",
+              "@media (max-width: 991px)": {
+                "padding": "0.7rem 0 !important",
+                "display": "-webkit-flex",
+                "margin": "0rem 1.25rem !important",
+                "-webkit-align-items": "center"
+              }
+            }
+          },
+          "_name": "menu",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" global always-top position-absolute not-draggable once=\"menu\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#000000\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/hafsa-logo-2-kopyas-29.svg\" alt mbr-style=\"{'height': logoSize + 'rem'}\">\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">ClaimM4</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish&&!showBrand&&!showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link mbr-bold text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link mbr-bold dropdown-toggle text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Device Repair&nbsp;</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">iPhone</a>\n                        <a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Google</a><a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">All Smartphones</a><a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Tablet</a><a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Computer<br></a><a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Game Console<br></a><a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Gadgets</a>\n                    </div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link mbr-bold text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Certifications&nbsp;<br></a>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link mbr-bold text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Contact</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"nav-link link text-black mbr-bold outstanding\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Check status</a>\n\n                <a class=\"btn btn-md btn-primary-outline\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">Delivery status</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sgRvsVvC03",
+          "_anchor": "menu-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "overflow": "hidden",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "@media (min-width: 1330px)": {
+              ".container": {
+                "max-width": "1330px !important"
+              }
+            },
+            ".content-wrap": {
+              "background-color": "@contentBg"
+            },
+            ".card-wrap": {
+              "margin-top": "5rem",
+              "margin-bottom": "5rem",
+              "padding": "5rem",
+              "background-color": "@cardBg",
+              "@media (min-width: 992px)": {
+                "width": "~'calc(100% + 10rem)'",
+                "margin-left": "46px",
+                "& when (@reverseContent)": {
+                  "margin-left": "-12.6rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "margin-top": "0",
+                "margin-bottom": "0",
+                "padding": "48px 20px 48px 20px"
+              }
+            },
+            ".img-wrap": {
+              "height": "100%",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center center"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "animation-delay": ".2s"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "2rem",
+              "margin-bottom": "-0.25rem",
+              "animation-delay": ".4s"
+            },
+            "[class*=\"col\"]": {
+              "padding-left": "0 !important",
+              "padding-right": "0 !important"
+            },
+            ".container": {
+              "@media (min-width: 992px)": {
+                "padding-left": "0 !important",
+                "padding-right": "0 !important"
+              }
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            "H1": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "header1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Content BG\" name=\"contentBg\" value=\"#ebd2b4\" selected>\n        <input type=\"color\" title=\"Card Bg\" name=\"cardBg\" value=\"#ffffff\" condition=\"showTitle || showSubtitle || showButtons\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" condition=\"showTitle || showSubtitle || showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#055d4e\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-left\" mbr-class=\"{'container-fluid': fullWidth,                    'container': !fullWidth}\">\n        <div class=\"row content-wrap\">\n            <div class=\"mbr-black col-lg-5 col-md-12 py-lg-0 mbr-z-index20\" mbr-class=\"{'pb-2 order-2':reverseContent, 'pt-2':!reverseContent}\" mbr-if=\"showTitle||showSubtitle||showButtons\">\n                <div class=\"card-wrap\">\n                    <h1 class=\"mbr-section-title align-center mbr-fonts-style fade-in-up mb-0 mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">We Fix It All</h1>\n                    <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style fade-in-up mt-4 mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center fade-in-up\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn more</a>\n                        <a class=\"btn btn-md btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start now</a></div>\n                </div>\n            </div>\n            <div class=\"col-lg-7 col-md-12 py-lg-0\" mbr-class=\"{'pt-4':reverseContent, 'pb-4':!reverseContent}\">\n                <div class=\"img-wrap\">\n                    <img src=\"@PROJECT_PATH@/assets/images/001-1.jpeg\" alt>\n                </div>\n            </div> \n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvNcGr2o",
+          "_anchor": "header1-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when not (@spacing)": {
+              "[class*=\"col\"]": {
+                "padding-left": "0 !important",
+                "padding-right": "0 !important"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "margin-top": "1.5rem",
+              "text-align": "left"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "2rem"
+            },
+            ".section-header": {
+              "margin-bottom": "3rem"
+            },
+            "& when (@spacing)": {
+              ".item-wrapper": {
+                "margin-bottom": "1.5rem"
+              }
+            },
+            ".row-item": {
+              "padding": "3rem",
+              "padding-top": "3.7rem",
+              "height": "100%",
+              "&.card1": {
+                "background": "@card1Bg"
+              },
+              "&.card2": {
+                "background": "@card2Bg"
+              },
+              "&.card3": {
+                "background": "@card3Bg"
+              },
+              "&.card4": {
+                "background": "@card4Bg"
+              }
+            },
+            "@media (max-width: 1024px)": {
+              ".row-item": {
+                "padding": "2rem"
+              }
+            },
+            ".mbr-card-title": {
+              "margin-bottom": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".card-img,.mbr-text,.mbr-card-title, .mbr-section-subtitle,.mbr-section-title, .underline": {
+                "text-align": "center !important"
+              }
+            },
+            ".mbr-iconfont": {
+              "background-color": "@iconBg",
+              "font-size": "30px",
+              "height": "56px",
+              "min-width": "56px",
+              "padding": ".7rem",
+              "color": "#fff",
+              "border": "1px solid @iconBg",
+              "border-radius": "50%"
+            },
+            ".card-img": {
+              "margin-bottom": "1.7rem",
+              "text-align": "left"
+            },
+            ".card2 > .mbr-text,.card2 > .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".card1 > .mbr-text,.card1 > .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".card3>.mbr-text,.card3>.mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".card4>.mbr-text,.card4>.mbr-section-btn": {
+              "text-align": "left"
+            }
+          },
+          "_name": "features7",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"features7\" group=\"Features\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Section Title\" name=\"showSectionTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline name=\"textWidth\" title=\"Text Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Cards</header>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"swIcon\" checked>\n         <input type=\"color\" title=\"Icon BG\" name=\"iconBg\" value=\"#000000\" condition=\"swIcon\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n         <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"color\" title=\"Card 1 Bg\" name=\"card1Bg\" value=\"#afd3ce\">\n        <input type=\"color\" title=\"Card 2 Bg\" name=\"card2Bg\" value=\"#ebd2b4\" condition=\"cardsAmount > 1\">\n        <input type=\"color\" title=\"Card 3 Bg\" name=\"card3Bg\" value=\"#c1bebe\" condition=\"cardsAmount > 2\">\n        <input type=\"color\" title=\"Card 4 Bg\" name=\"card4Bg\" value=\"#bcd9df\" condition=\"cardsAmount > 3\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cfd5e1\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'justify-content-center': textAlign==2, 'justify-content-end': textAlign==3, 'justify-content-start': textAlign==1}\">\n            <div class=\"section-header col-lg-{{textWidth}}\">\n        <h2 class=\"mbr-fonts-style mbr-section-title mb-0 mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showSectionTitle\" data-app-selector=\".mbr-section-title\">iPhone, Smartphones, Tablets, Laptops &amp; More</h2>\n        <h3 class=\"mbr-fonts-style mbr-section-subtitle mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod&nbsp;&nbsp;tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo&nbsp; quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo.&nbsp; Leo in vitae turpis massa sed elementum.</h3>\n        </div>\n        </div>\n        <div class=\"row align-left\">\n            \n            <div class=\"col-md-6 item-wrapper\">\n            <div class=\"row-item card1 align-left\" mbr-if=\"cardsAmount > 0\">\n                <div class=\"card-img align-left mbr-white\" mbr-if=\"swIcon\">\n                    <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mobi-mbri-edit mobi-mbri\"></span>\n                </div>\n                <h4 class=\"mbr-fonts-style mbr-card-title mbr-black mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card1>.mbr-card-title,.card1>.card-img\">Warranty</h4>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card1>.mbr-text,.card1>.mbr-section-btn\">Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View More</a></div>\n            </div>\n            </div>\n\n             <div class=\"col-md-6 item-wrapper\">\n            <div class=\"row-item card2\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-img align-left mbr-white\" mbr-if=\"swIcon\">\n                    <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mobi-mbri-update mobi-mbri\"></span>\n                </div>\n                <h4 class=\"mbr-fonts-style mbr-card-title mbr-black mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card2>.mbr-card-title,.card2>.card-img\">Recycling</h4>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card2>.mbr-text,.card2>.mbr-section-btn\">Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View More</a></div>\n            </div>\n            </div>\n\n            <div class=\"col-md-6 item-wrapper\">\n            <div class=\"row-item card3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-img align-left mbr-white\" mbr-if=\"swIcon\">\n                    <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-photos\"></span>\n                </div>\n                <h4 class=\"mbr-fonts-style mbr-card-title mbr-black mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card3>.mbr-card-title,.card3>.card-img\">Computer Repair</h4>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card3>.mbr-text,.card3>.mbr-section-btn\">Lorem ipsum dolor amet, consecte tempor incididunt ut labore et dolore tumber tur adipisicing elit.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View More</a></div>\n            </div>\n            </div>\n\n            <div class=\"col-md-6 item-wrapper\">\n            <div class=\"row-item card4\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-img align-left mbr-white\" mbr-if=\"swIcon\">\n                    <span mbr-if=\"swIcon\" mbr-icon class=\"mbr-iconfont mbri-like\"></span>\n                </div>\n                <h4 class=\"mbr-fonts-style mbr-card-title mbr-black mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card4>.mbr-card-title,.card4>.card-img\">Smartphone Repair</h4>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card4>.mbr-text,.card4>.mbr-section-btn\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mauris commodo quis imperdiet massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. Leo in vitae turpis massa sed elementum.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn  btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View More</a></div>\n            </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvQDSyRh",
+          "_anchor": "features7-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".text-wrapper": {
+              "max-width": "28rem",
+              "margin": "auto",
+              "@media (min-width: 992px)": {
+                "padding-top": "4rem",
+                "padding-bottom": "4rem"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "margin-bottom": "1.5rem"
+            },
+            ".mbr-text-2": {
+              "margin-top": "13.5px"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".line": {
+              "width": "100%",
+              "margin": "0 0 1.5rem 0",
+              "border-bottom": "1px solid @lineColor"
+            },
+            ".mbr-text-title": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-text": {
+              "margin-bottom": "2.5rem"
+            },
+            ".mbr-text-2, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".logo-row": {
+              "margin": "2rem 0 0 0 !important",
+              "[class*=\"col\"]": {
+                "padding-left": ".25rem !important",
+                "padding-right": ".25rem !important"
+              }
+            },
+            ".img-wrap": {
+              "height": "42px",
+              "width": "100%",
+              "img": {
+                "height": "100%",
+                "width": "100%",
+                "object-fit": "contain",
+                "object-position": "0 50%"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".img-wrap": {
+                "margin-bottom": "1rem",
+                "img": {
+                  "object-position": "50% 50%"
+                }
+              }
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n                <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"4\" value=\"4\" step=\"1\" condition=\"showLogo\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Title\" name=\"showTextTitle\" checked>\n         <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n         <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n        <input type=\"checkbox\" title=\"Logo Section\" name=\"showLogo\" checked>\n    <input type=\"color\" title=\"Line Color\" value=\"#000000\" selected name=\"lineColor\" condition=\"showLine\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-items-center justify-content-center\">\n            \n            <div class=\"col-12 col-md align-center column-wrapper\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        Home and Businnes Gudget</h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore&nbsp; agna aliqua.</p> \n                    <div class=\"line\" mbr-if=\"showLine\">\n                    </div>\n                        <h4 class=\"mbr-text-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-text-title\" mbr-theme-style=\"display-4\" mbr-if=\"showTextTitle\">\n                        <b>Home and Businnes Gudjet</b></h4>\n                    <p class=\"mbr-text-2 mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-2, .mbr-section-btn\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore&nbsp; agna aliqua.</p> \n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">See style guide</a></div>\n                    \n               <div class=\"row align-items-left justify-content-center logo-row\" mbr-if=\"showLogo\">\n\n                    <div class=\"col-lg-3 col-md-6 col-6\" mbr-if=\"items > 0\">\n                        <div class=\"img-wrap\">\n                           <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/capital-letter-a-235x235.png\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div class=\"col-lg-3 col-md-6 col-6\" mbr-if=\"items > 1\">\n                        <div class=\"img-wrap\">\n                           <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/embroidery-235x235.png\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div class=\"col-lg-3 col-md-6 col-6\" mbr-if=\"items > 2\">\n                        <div class=\"img-wrap\">\n                           <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/lausanne-metro-logo-235x235.png\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div class=\"col-lg-3 col-md-6 col-6\" mbr-if=\"items > 3\">\n                        <div class=\"img-wrap\">\n                           <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/text-editor-235x235.png\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                </div>\n                    \n                </div>\n\n            </div>\n            \n                        <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/021.jpg\" alt=\"Mobirise\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvSF1w7C",
+          "_anchor": "content4-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "span": {
+              "color": "#c1c1c1"
+            },
+            ".mbr-text": {
+              "padding-left": "1.5rem"
+            },
+            ".mbr-section-title": {
+              "padding-left": "1.5px"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "22.5px"
+            },
+            "H1": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"content1\" group=\"Content\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Text Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n         <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ebd2b4\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-lg-{{12-textWidth}}\" mbr-theme-style=\"display-7\"> \n            <h1 class=\"mbr-section-title align-left mbr-fonts-style mb-0 mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">What Can We Fix For You?</h1>\n            </div>\n            \n            <div class=\"mbr-text col-12 col-lg-{{textWidth}}\" mbr-theme-style=\"display-7\" mbr-if=\"showText || showButtons\">\n                <div class=\"content-wrap\">\n                    <p class=\"mbr-fonts-style mt-2 mb-0\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Our repair services are here to repair your phone, tablet, computer and game console.  Bring your broken device to us for fast and convenient repair services.&nbsp;What can we fix for you today?</p>\n                </div>\n            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mb-0\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Let us know!</a></div>\n        </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvTcp1GG",
+          "_anchor": "content1-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "[class*=\"col\"]": {
+              "padding-left": "5px !important",
+              "padding-right": "5px !important"
+            },
+            ".container-fluid": {
+              "padding": "0 !important",
+              "margin": "3rem 0"
+            },
+            ".carousel-item": {
+              "& when not (@visibleSlides = '1')": {
+                "@media (min-width: 992px)": {
+                  "width": "~\"calc(100% + 100% / @{visibleSlides})\"",
+                  "left": "~\"calc(-100% / (2 * @{visibleSlides}))\"",
+                  "margin-right": "~\"calc(-100% - 100% / @{visibleSlides})\""
+                }
+              },
+              "justify-content": "center",
+              "text-align": "left",
+              "transition": "none",
+              ".media-container-row": {
+                "flex-grow": "1"
+              },
+              ".slider__image": {
+                "height": "500px",
+                "width": "100%",
+                "overflow": "hidden",
+                "img": {
+                  "width": "100%",
+                  "height": "100%",
+                  "object-fit": "cover",
+                  "transition": "all .5s"
+                },
+                "&:hover": {
+                  "img": {
+                    "-webkit-transform": "scale3d(1.1, 1.1, 1.1)",
+                    "transform": "scale3d(1.1, 1.1, 1.1)"
+                  }
+                }
+              }
+            },
+            ".slider__content": {
+              "& when not (@cardImage)": {
+                "border-top": "1px solid @borderColor"
+              },
+              ".slider__title": {
+                "margin-top": "2rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".slider__title": {
+                "margin-left": "2rem"
+              }
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".mbr-iconfont": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".carousel-control-next, .carousel-control-prev": {
+              "opacity": "1 !important",
+              "&:hover": {
+                "opacity": "1 !important"
+              }
+            },
+            ".carousel-controls": {
+              "width": "100%",
+              "a": {
+                "span": {
+                  "width": "95.7px",
+                  "height": "95.7px",
+                  "line-height": "75.7px",
+                  "font-size": "20px",
+                  "position": "absolute",
+                  "padding": "10px",
+                  "border-radius": "50%",
+                  "color": "@arrowsColor",
+                  "background": "@arrowsBg",
+                  "&:hover": {
+                    "transform": "scale(1.07)",
+                    "transform-origin": "center",
+                    "transition": "transform 0.2s ease 0s"
+                  }
+                }
+              },
+              "position": "absolute",
+              "z-index": "20",
+              "top": "43.3%",
+              "transform": "translateY(-50%)"
+            },
+            ".col-lg-15": {
+              "flex": "0 0 100%",
+              "max-width": "100%",
+              "position": "relative",
+              "min-height": "1px",
+              "padding-right": "10px",
+              "padding-left": "10px",
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".col-lg-15": {
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "width": "20%"
+              },
+              ".carousel-inner": {
+                "padding-bottom": "3px"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".carousel-item .slider__item": {
+                "margin-right": "0"
+              },
+              ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                "display": "none"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-controls": {
+                "display": "none"
+              },
+              ".mbr-text, .mbr-section-title": {
+                "padding": "0 1rem"
+              }
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"clients slider2\" group=\"Sliders and Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-clients-slider\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n         <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <header>Slider</header>\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"20\" step=\"1\" value=\"5\">\n        <select title=\"Visible Slides\" name=\"visibleSlides\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n        <input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#ffffff\" condition=\"showArrows\">\n         <input type=\"color\" title=\"Arrows BG\" name=\"arrowsBg\" value=\"#000000\" condition=\"showArrows\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n        <input type=\"color\" title=\"Border Color\" value=\"#ddebe9\" name=\"borderColor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters> \n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-12 title__block\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-0 mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">What we repair</h3>\n               <p class=\"mbr-text mbr-fonts-style mt-4 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis, illo ex cupiditate error laboriosam earum repellendus amet facere fugiat, similique, et aut obcaecati quisquam beatae. Odit, explicabo, excepturi. Quae.</p>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n            <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n                <div class=\"carousel-item \">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12\">\n                            <div class=\"slider__item\">\n                                <div class=\"slider__image\" mbr-if=\"cardImage\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/034.jpg\" alt title>\n                                </div>\n                                <div class=\"slider__content\">\n                                    <div class=\"slider__content-wrap\">\n                                        <h5 class=\"slider__title mbr-fonts-style mb-0 mbr-bold\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Repair</h5>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n            <div class=\"carousel-item \">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12\">\n                            <div class=\"slider__item\">\n                                <div class=\"slider__image\" mbr-if=\"cardImage\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/035.jpg\" alt title>\n                                </div>\n                                <div class=\"slider__content\">\n                                    <div class=\"slider__content-wrap\">\n                                        <h5 class=\"slider__title mbr-fonts-style mb-0 mbr-bold\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Delivery</h5>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"carousel-item \">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12\">\n                            <div class=\"slider__item\">\n                                <div class=\"slider__image\" mbr-if=\"cardImage\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/036-960x640.jpg\" alt title>\n                                </div>\n                                <div class=\"slider__content\">\n                                    <div class=\"slider__content-wrap\">\n                                        <h5 class=\"slider__title mbr-fonts-style mb-0 mbr-bold\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Smartphones</h5>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"carousel-item \">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12\">\n                            <div class=\"slider__item\">\n                                <div class=\"slider__image\" mbr-if=\"cardImage\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/038-505x356.jpg\" alt title>\n                                </div>\n                                <div class=\"slider__content\">\n                                    <div class=\"slider__content-wrap\">\n                                        <h5 class=\"slider__title mbr-fonts-style mb-0 mbr-bold\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Wearables</h5>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div><div class=\"carousel-item \">\n                    <div class=\"media-container-row\">\n                        <div class=\"col-md-12\">\n                            <div class=\"slider__item\">\n                                <div class=\"slider__image\" mbr-if=\"cardImage\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/037.jpg\" alt title>\n                                </div>\n                                <div class=\"slider__content\">\n                                    <div class=\"slider__content-wrap\">\n                                        <h5 class=\"slider__title mbr-fonts-style mb-0 mbr-bold\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Audio</h5>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div></div>\n            <div class=\"carousel-controls\" mbr-if=\"(showArrows &&  cardTitle) || (cardImage && showArrows)\">\n                 <a data-app-prevent-settings class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n                    <span aria-hidden=\"true\" class=\"mobi-mbri mobi-mbri-arrow-prev mbr-bold mbr-iconfont\"></span>\n                    <span class=\"sr-only\">Previous</span>\n                </a>\n                <a data-app-prevent-settings class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\">\n                    <span aria-hidden=\"true\" class=\"mobi-mbri mobi-mbri-arrow-next mbr-bold mbr-iconfont\"></span>\n                    <span class=\"sr-only\">Next</span>\n                </a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvZuoN9b",
+          "_anchor": "slider2-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-wrapper": {
+              "background-color": "@borderColor",
+              "padding": "2rem",
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              }
+            },
+            ".text-wrapper": {
+              "max-width": "28rem"
+            },
+            ".content-wrapper": {
+              "background": "@cardColor",
+              "@media (max-width: 991px)": {
+                ".image-wrapper": {
+                  "margin-bottom": "2rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "3rem",
+                ".text-column": {
+                  "padding-left": "4rem"
+                }
+              }
+            },
+            "& when (@rowReverse)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".text-column": {
+                  "padding-left": "16px !important",
+                  "padding-right": "4rem"
+                }
+              }
+            },
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"content5\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n         <input type=\"checkbox\" title=\"Reverse\" name=\"rowReverse\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#bcd9df\" selected>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"card-wrapper\">\n        <div class=\"content-wrapper\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/008.jpg\" alt=\"Mobirise\">\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg text-column\">\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style mb-3 mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Easy and simple\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">If you have any electronic devices in need of repair,&nbsp; our Electronic Repairs can provide an affordable solution.&nbsp;&nbsp; With fifteen years' experience repairing gadgets, we are confident that we can fix your devices.<br>\n<br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\">\n                            <a class=\"btn btn-primary btn-md\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                Learn more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvTN4FKH",
+          "_anchor": "content5-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".card": {
+              "margin-bottom": ".75rem",
+              "padding": "1rem 2.5rem",
+              "background-color": "@cardColor",
+              "width": "100%",
+              "border-radius": "0 !important",
+              "img": {
+                "height": "59px",
+                "width": "100%",
+                "object-fit": "contain"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "margin-top": ".75rem",
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".logo-container": {
+              "justify-content": "space-around",
+              "margin-top": "2.5rem",
+              "margin-bottom": "2.5rem"
+            },
+            "@media (min-width: 992px)": {
+              ".col-lg-1": {
+                "flex": "0 0 19.7%",
+                "max-width": "19.7%"
+              }
+            },
+            ".row when (@items <= 3)": {
+              "justify-content": "center!important",
+              ".card": {
+                "margin-right": ".2rem",
+                "margin-left": ".2rem"
+              }
+            },
+            "H2": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "text-align": "center"
+            }
+          },
+          "_name": "clients1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section group=\"Clients\" class=\"clients1\">\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n         <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked> \n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"9\" step=\"1\" condition=\"showTitle || showSubtitle\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"10\" value=\"5\" step=\"1\">\n         <input type=\"color\" title=\"Card BG\" name=\"cardColor\" value=\"#fafafa\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n        <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth}\">\n        <div class=\"row  justify-content-center\">\n            <div class=\"section-header col-md-12 col-lg-{{textWidth}}\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title mbr-regular align-center mbr-fonts-style mbr-bold mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Our clients</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" mbr-if=\"showSubtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tempus iaculis urna id volutpat lacus laoreet.&nbsp;</h3>\n            </div>\n        </div>\n            <div class=\"row logo-container\">\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 0\">\n                <img src=\"@PROJECT_PATH@/assets/images/capital-letter-a.png\" alt>\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 1\">\n                <img src=\"@PROJECT_PATH@/assets/images/embroidery.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 2\">\n                <img src=\"@PROJECT_PATH@/assets/images/lausanne-metro-logo.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 3\">\n                <img src=\"@PROJECT_PATH@/assets/images/wow.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 4\">\n                <img src=\"@PROJECT_PATH@/assets/images/text-editor.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 5\">\n                <img src=\"@THEME_PATH@/components/_images/1.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 6\">\n                <img src=\"@THEME_PATH@/components/_images/2.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 7\">\n                <img src=\"@THEME_PATH@/components/_images/3.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 8\">\n                <img src=\"@THEME_PATH@/components/_images/3.png\">\n            </div>\n            <div class=\"col-lg-1 col-md-3 card\" mbr-if=\"items > 9\">\n                <img src=\"@THEME_PATH@/components/_images/3.png\">\n            </div>\n        </div>\n        \n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\" mbr-if=\"showButtons\">\n         <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">See more</a></div>\n        </div>\n        </div>\n        \n     </div>\n</section>",
+          "_cid": "sgRvVbnQyz",
+          "_anchor": "clients1-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".column-wrapper": {
+              "padding-left": "1.5rem"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              },
+              ".column-wrapper": {
+                "padding-left": "16px",
+                "padding-right": "1.5rem"
+              }
+            },
+            ".text-wrapper": {
+              "margin-left": "auto",
+              "margin-right": "auto",
+              "max-width": "28rem",
+              "@media (min-width: 992px)": {
+                "padding-left": "1.5rem",
+                "padding-right": "1.5rem"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "margin-bottom": "1.5rem",
+              "color": "#000000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            "@media (max-width: 767px)": {
+              ".image-wrapper": {
+                "margin-bottom": "2rem"
+              }
+            }
+          },
+          "_name": "image1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#fafafa\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#055d4e\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row align-items-center justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/002.jpg\" alt=\"Mobirise\">\n            </div>\n            <div class=\"col-12 col-md align-center column-wrapper\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mbr-bold\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Same Day Repairs</h1>\n                    <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore&nbsp; agna aliqua.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start your repair</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRvY2LBD8",
+          "_anchor": "image1-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".image-block": {
+              "margin": "auto",
+              "height": "~\"@{imageHeight}px\"",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            "img": {
+              "width": "100%",
+              "height": "100%",
+              "transition": "all 3s",
+              "object-fit": "cover"
+            },
+            "@media (max-width: 991px)": {
+              ".image-block": {
+                "max-height": "400px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".wrap": {
+                "opacity": "1!important"
+              }
+            },
+            "& when (@showPadding)": {
+              "[class*=\"col\"]": {
+                "padding-left": ".25rem !important",
+                "padding-right": ".25rem !important"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            "& when (@showSubtitle)": {
+              ".mbr-section-title": {
+                "margin-bottom": "1.5rem"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section group=\"Sliders and Galleries\" class=\"gallery1\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Fill Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n         <input type=\"range\" title=\"Text Width\" name=\"textWidth\" min=\"3\" max=\"12\" value=\"6\" step=\"1\" condition=\"showTitle || showSubtitle\">\n        <input type=\"range\" inline title=\"Count\" name=\"imageCount\" min=\"1\" max=\"4\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Height Image\" name=\"imageHeight\" min=\"370\" max=\"800\" value=\"370\" step=\"50\">\n\n        <input type=\"checkbox\" title=\"Show Padding\" name=\"showPadding\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#fafafa\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid':fullWidth}\">\n        \n                   <div class=\"row\" mbr-class=\"{'m-0':!fullWidth && !showPadding}\">\n            <div class=\"col-12 col-lg-{{textWidth}} mb-5\" mbr-if=\"showTitle || showSubtitle\">\n                <h1 class=\"mbr-section-title mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Features\n                </h1>\n                     <h2 class=\"mbr-section-subtitle mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit,&nbsp;sed do eiusmod tempor incididunt ut labore et dolore.</h2>\n            </div>\n            </div>\n        \n        <div class=\"row\" mbr-class=\"{'m-0':!fullWidth && !showPadding}\">\n            \n             <div mbr-class=\"{'col-md-12': imageCount == 1,\n                            'col-md-6': imageCount == 2,\n                            'col-md-3': imageCount > 2,\n                            'p-0': !showPadding}\">         \n                <div class=\"image-block\">\n                    <img src=\"@PROJECT_PATH@/assets/images/031.jpg\" alt=\"Mobirise\">\n                </div>\n               </div>\n\n            <div mbr-class=\"{'col-md-6': imageCount < 4,\n                            'col-md-3': imageCount == 4,\n                            'p-0': !showPadding}\" mbr-if=\"imageCount > 1\">   \n                <div class=\"image-block\">\n                    <img src=\"@PROJECT_PATH@/assets/images/029.jpg\" alt=\"Mobirise\">\n                </div>\n            </div>\n\n             <div class=\"col-md-3\" mbr-class=\"{'p-0': !showPadding}\" mbr-if=\"imageCount > 2\">  \n                <div class=\"image-block\">\n                    <img src=\"@PROJECT_PATH@/assets/images/028.jpg\" alt=\"Mobirise\">\n                </div>\n\n            </div>\n            \n            <div class=\"col-md-3\" mbr-class=\"{'p-0': !showPadding}\" mbr-if=\"imageCount > 3\">\n                <div class=\"image-block\">\n                    <img src alt=\"Mobirise\">\n                </div>\n\n           \n            </div>\n        </div>\n   </div>\n</section>",
+          "_cid": "sgRvZ6Qt1U",
+          "_anchor": "gallery1-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "@media (max-width: 767px)": {
+                "justify-content": "center",
+                ".soc-item": {
+                  "margin-right": "0",
+                  "margin": "0 .5rem .5rem 0"
+                }
+              }
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            "a": {
+              "width": "100%",
+              "height": "100%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".addres-list li": {
+              "font-weight": "500",
+              "margin-bottom": "0"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "border": "1px solid @icons",
+              "margin-right": "0.8rem",
+              "margin-bottom": "1rem",
+              "height": "3.2rem",
+              "width": "3.2rem",
+              "&:hover": {
+                ".mbr-iconfont": {
+                  "color": "@primaryColor"
+                }
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "margin-top": "1.5rem",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-iconfont": {
+              "transition": "color 0.3s",
+              "color": "@icons",
+              "font-size": "1.2rem"
+            },
+            ".addres-list": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            "li": {
+              "margin-bottom": ".5rem",
+              "&:hover": {
+                "opacity": ".75"
+              }
+            },
+            ".privacy": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "padding-top": "1.5rem",
+              "margin-top": "4rem",
+              "border-top": "2px solid #444"
+            },
+            "SPAN": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".privacy-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"footer1\" group=\"Footes\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" always-bottom mbr-class=\"{\n    'mbr-parallax-background': bg.parallax, 'mbr-reveal': reveal}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked>\n        <header>Show/Hide</header>\n         <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Titles\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"range\" name=\"columnsCount\" title=\"Columns Count\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n         <input type=\"checkbox\" title=\"Show Privacy Section\" name=\"showPrivacySection\" checked>      \n\n        <header>Color</header>\n        <input type=\"color\" title=\"Icons\" name=\"icons\" value=\"#522802\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#bcd9df\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white align-left\">\n            \n            <div class=\"col-12 col-lg-6\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-0 mbr-bold\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showBrand\">\n                    ClaimM4</h5>\n                 <ul class=\"list mbr-fonts-style addres-list\" mbr-theme-style=\"display-7\" data-app-selector=\".addres-list\" data-multiline mbr-article>\n\n                    <li class=\"mbr-text item-wrap\">1234 Oak St.</li>\n                    <li class=\"mbr-text item-wrap\">info@hafsa.de</li>\n                    <li class=\"mbr-text item-wrap\">+13 324 653 345</li><li class=\"mbr-text item-wrap\">+13 324 653 346</li><li class=\"mbr-text item-wrap\">+13 324 653 347</li>\n                </ul>\n                    <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-skype socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-lg-6\">\n                 <div class=\"row justify-content-end mt-5\">\n                <div class=\"col-12 col-md-4 col-lg-4\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\">\n                    <b>Support</b></h5>\n                    <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">Chat</li>\n                    <li class=\"mbr-text item-wrap\">Contact us</li>\n                    <li class=\"mbr-text item-wrap\">FAQs</li>\n                </ul>\n                           </div>\n                <div class=\"col-12 col-md-4 col-lg-4\" mbr-if=\"columnsCount > 1\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\">\n                    <b>Links</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">Blog</li>\n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\">Help</span><br></li>\n                    <li class=\"mbr-text item-wrap\">Contacts</li><li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n                     \n                <div class=\"col-12 col-md-4 col-lg-4\" mbr-if=\"columnsCount > 2\">\n                  <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\"><b>About company</b></h5>\n                     <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">History</li>\n                    <li class=\"mbr-text item-wrap\">About us</li>\n                    <li class=\"mbr-text item-wrap\">Vacancies </li>\n                    <li class=\"mbr-text item-wrap\">Our mission</li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n                </div>\n    \n                </div>     \n            </div>\n    \n        </div>\n        \n        <div class=\"row mbr-white\" mbr-if=\"showPrivacySection\">\n            <div class=\"col-12\">\n                <div class=\"privacy\">\n                    <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Privacy Notice</span>\n                    <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>ClaimM4</b></span>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRw4l8cXi",
+          "_anchor": "footer1-a",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        },
+        {
+          "_name": "footer02",
+          "_sourceTheme": "stackm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2 stackm5\" group=\"Footers\" global mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/stackm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 Hafsa - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_cid": "tdIogfpCPo",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer02-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".panel-body-wpapper": {
+              "padding": "2.5rem 0"
+            },
+            ".panel-body": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "padding": "2rem 1rem 2rem 0",
+              "border-bottom": "1px solid @lineColor"
+            },
+            ".card-img": {
+              "width": "49px",
+              "height": "49px",
+              "background-color": "@iconBgColor",
+              "border-radius": "50%",
+              "color": "@iconColor",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "margin-right": "1.5rem"
+            },
+            ".icon-wrapper": {
+              "height": "33px",
+              "width": "33px",
+              "border-radius": "100%",
+              "border": "2px solid @arrowColor"
+            },
+            ".arrow-group": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "span": {
+                "margin-right": "13.5px"
+              },
+              "text-align": "right",
+              "color": "#000000"
+            },
+            ".wrap": {
+              "display": "flex"
+            },
+            ".icon": {
+              "min-width": "30px",
+              "height": "30px",
+              "border-radius": "100%",
+              "color": "@arrowColor !important",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "font-size": ".7rem",
+              "font-weight": "bold",
+              "transition": "all 0.3s",
+              "transform": "scaleY(-1)",
+              "&:before": {
+                "content": "\"\\e908\" !important"
+              }
+            },
+            ".panel-title.collapsed .icon": {
+              "transform": "scaleY(1) !important"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-header": {
+              "padding": "2rem 0",
+              "border-bottom": "1px solid @lineColor"
+            },
+            ".card .card-header a.panel-title": {
+              "background-color": "transparent!important"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".accordion-content": {
+              "-webkit-flex-basis": "100%",
+              "flex-basis": "100%"
+            },
+            ".panel-group": {
+              "width": "100%"
+            },
+            ".card": {
+              "& .card-header": {
+                "background": "none",
+                "border-radius": "0px",
+                "& a.panel-title": {
+                  "transition": "all .3s",
+                  "margin-bottom": "0",
+                  "font-style": "normal",
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "text-decoration": "none !important",
+                  "margin-top": "-1px",
+                  "line-height": "normal",
+                  "&:hover": {
+                    "opacity": "0.75"
+                  },
+                  "&:focus": {
+                    "text-decoration": "none !important"
+                  }
+                }
+              }
+            },
+            ".media-container-row": {
+              ".accordion-section": {
+                "display": "flex",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".media-container-row": {
+                "> div": {
+                  "-webkit-flex": "0 0 100%",
+                  "flex": "0 0 100%",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".header-article-text:hover": {
+              "text-decoration": "underline"
+            },
+            ".panel-text": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".header-text, .sign": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".header-article-text, .sign": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".accordion > .card > .card-header": {
+              "margin-bottom": "0 !important"
+            },
+            "h4": {
+              "margin-bottom": "0"
+            }
+          },
+          "_name": "accordion2",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"accordion2\" group=\"Accordions\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <select title=\"Accordions\" name=\"bootstrapAccordion\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n        </select>\n        <select title=\"Accordion 1 Articles\" name=\"articles1\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Accordion 2 Articles\" name=\"articles2\" condition=\"bootstrapAccordion > 1\">    \n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select> \n        <select title=\"Accordion 3 Articles\" name=\"articles3\" condition=\"bootstrapAccordion > 2\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Accordion 4 Articles\" name=\"articles4\" condition=\"bootstrapAccordion > 3\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Accordion 5 Articles\" name=\"articles5\" condition=\"bootstrapAccordion > 4\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Accordion 6 Articles\" name=\"articles6\" condition=\"bootstrapAccordion > 5\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Accordion 7 Articles\" name=\"articles7\" condition=\"bootstrapAccordion > 6\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Accordion 8 Articles\" name=\"articles8\" condition=\"bootstrapAccordion > 7\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" value=\"#000000\" title=\"Arrow Color\" name=\"arrowColor\" selected>\n         <input type=\"color\" value=\"#000000\" title=\"Icon BG Color\" name=\"iconBgColor\" selected>\n        <input type=\"color\" value=\"#ffffff\" title=\"Icon Color\" name=\"iconColor\" selected>\n        <input type=\"color\" value=\"#cfd5e1\" title=\"Line Color\" name=\"lineColor\" selected>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Sub Title\" name=\"showSubtitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#ffffff\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center w-100 align-items-center\">\n            <div class=\"col-md-10\">\n                <h2 class=\"mbr-section-title align-left mbr-fonts-style mbr-bold mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Guides</h2>\n                <h3 class=\"mbr-section-subtitle align-left  mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Turpis massa sed elementum tempus egestas sed sed risus. Purus ut faucibus pulvinar elementum integer.&nbsp;</h3>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 accordion-section\">\n                <div class=\"accordion-content\">\n\n                    <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion \" role=\"tablist\" aria-multiselectable=\"true\">\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 0\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text\">iPhone Repair</h4>\n                                        <div class=\"arrow-group\">\n                                        <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">2 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles1 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Broken Screens</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles1 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Not charging</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles1 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles1 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text\">Smartphones Repair</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">4 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles2 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Broken Screens</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles2 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Liquid Damage</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles2 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Camera Replacement</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles2 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-success mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Not charging</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text\">Tablets</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">3 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles3 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Broken Screens</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles3 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Liquid Damage</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles3 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Not charging</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles3 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text\">Laptops</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">1 Article</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles4 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Keyboard Replacements</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles4 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles4 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles4 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text\">Video Game Repair</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">2 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFive\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles5 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Controller Replacements</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles5 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Hard Drive Replacements</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles5 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles5 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign\">&nbsp;Repair</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">4 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles6 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles6 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles6 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles6 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 6\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingSeven\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse7\" aria-expanded=\"false\" aria-controls=\"collapse7\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign\">&nbsp;Repair</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">4 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSeven\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles7 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles7 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles7 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles7 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n                        \n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 7\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingEight\">\n\n                                <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse8\" aria-expanded=\"false\" aria-controls=\"collapse8\">\n                                    <div class=\"wrap justify-content-between w-100 align-items-center\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign\">&nbsp;Repair</h4>\n                                        <div class=\"arrow-group\">\n                                         <span mbr-text class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".arrow-group\">4 Articles</span>\n                                        <div class=\"icon-wrapper\"><span class=\"sign mbr-iconfont icon mbri-arrow-down inactive\"></span></div>\n                                        </div>\n                                    </div>\n\n                                </a>\n                            </div>\n                            <div id=\"collapse8\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingEight\" data-parent=\"#accordion\">\n                                \n                                <div class=\"panel-body-wpapper\">\n                                \n                                <div class=\"panel-body\" mbr-if=\"articles8 > 0\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles8 > 1\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles8 > 2\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mbri-success\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                 <div class=\"panel-body\" mbr-if=\"articles8 > 3\">\n                                     <div class=\"card-img\">\n                                        <div class=\"card-img-inner\">\n                                       <i mbr-icon class=\"mbr-iconfont mobi-mbri-cust-feedback mobi-mbri\"></i>\n                                      </div>\n                                    </div>\n                            <div class=\"card-text-wrapper\">\n                                  <h4 class=\"mbr-fonts-style header-article-text mbr-bold mb-1\" mbr-theme-style=\"display-4\" data-app-selector=\".header-article-text\">Order Issues</h4>\n                                    <p class=\"mbr-fonts-style panel-text mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptates dolorem, odit enim! Aspernatur quos ipsa, sit! Repudiandae, laboriosam enim aliquam, similique suscipit quas dicta voluptate repellendus distinctio laborum at!</p>\n                                    </div>\n                                </div>\n                                \n                                </div> \n                                \n                                \n                            </div>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRw5w5ucj",
+          "_anchor": "accordion2-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
+              "opacity": ".5"
+            },
+            "input:-moz-placeholder, textarea:-moz-placeholder": {
+              "opacity": ".5"
+            },
+            "& when (@customStyle)": {
+              ".form-block": {
+                "background-color": "@formBg !important"
+              },
+              ".form-control": {
+                "background-color": "@fieldColor",
+                "border-bottom": "1px solid @borderColor !important",
+                "padding-left": ".75rem",
+                "color": "@formText",
+                "&:focus, &:hover": {
+                  "border-bottom": "1px solid @borderHover !important",
+                  "background-color": "@fieldHover"
+                }
+              },
+              "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
+                "color": "@formPlaceholder"
+              },
+              "input:-moz-placeholder, textarea:-moz-placeholder": {
+                "color": "@formPlaceholder"
+              },
+              ".jq-selectbox li, .jq-selectbox li": {
+                "background-color": "@fieldColor",
+                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
+                "background-color": "@fieldHover",
+                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
+                "border-top-color": "@fieldColor"
+              },
+              ".jq-selectbox .jq-selectbox__trigger-arrow": {
+                "border-top-color": "@fieldHover"
+              }
+            },
+            "a:not([href]):not([tabindex])": {
+              "color": "#fff"
+            },
+            ".input-group-btn": {
+              ".btn-form": {
+                "width": "100%"
+              },
+              "display": "block",
+              "width": "100%",
+              "text-align": "center"
+            },
+            ".form-block": {
+              "padding": "75px 50px 35px 50px",
+              "background-color": "#ffffff",
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              }
+            },
+            "textarea.form-control": {
+              "resize": "none"
+            },
+            ".media-container-row": {
+              "-webkit-align-items": "stretch",
+              "-ms-flex-align": "stretch",
+              "align-items": "stretch"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "68px"
+            },
+            ".privacy": {
+              "margin-top": "50px",
+              "p": {
+                "padding": "10px",
+                "margin-bottom": "0"
+              },
+              "color": "#8e909b",
+              "text-align": "left"
+            }
+          },
+          "_name": "form1",
+          "_sourceTheme": "claimm4",
+          "_customHTML": "<section class=\"form1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <header>Style</header>\n         <select title=\"Form Align\" name=\"formAlign\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\">\n         <input type=\"color\" name=\"formBg\" title=\"Form BG\" value=\"#d4e7eb\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#fafafa\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#ebd2b4\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#a26a38\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Text\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#a2d1d9\" condition=\"customStyle\">\n        \n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/bg_3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'justify-content-start': formAlign == 1, 'justify-content-center': formAlign == 2, 'justify-content-end': formAlign == 3}\">\n            <div class=\"col-lg-6 col-md-9 block-content\">\n                <div class=\"form-block\">\n                    <h4 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style mbr-section-title mbr-fonts-style mbr-bold\" mbr-if=\"showTitle\">Get in touch and let us help!</h4>\n                    <div mbr-form>\n                    <!---Formbuilder Form--->\n                        <form action=\"\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                            <div class=\"form-row\">\n                                <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                                <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                </div>\n                            </div>\n                            <div class=\"dragArea form-row\">\n                                <div class=\"col-md-12\">\n  \n                                </div>\n                               <div class=\"col-md-12  form-group\" data-for=\"orderNumber\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"orderNumber\" class=\"form-control-label mbr-fonts-style mbr-bold\">Your Name</label> \n                                    <input type=\"text\" name=\"orderNumber\" placeholder=\"Name\" data-form-field=\"Your order number\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control input\">\n                                </div>\n                                \n                                <div class=\"col-md-12  form-group\" data-for=\"postCode\">\n                                 <label mbr-text mbr-theme-style=\"display-7\" for=\"postCode\" class=\"form-control-label mbr-fonts-style  mbr-bold\">Your E-mail</label> \n                                    <input type=\"text\" name=\"postCode\" placeholder=\" E-mail\" data-form-field=\"Your Post Code\" mbr-theme-style=\"display-7\" class=\"form-control input\" required=\"required\">\n                                </div>\n                                <div class=\"col-md-12 input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd, -mbrBtnRemove\"><a type=\"submit\" class=\"btn btn-form btn-bgr btn-info\" data-app-placeholder=\"Type Text\">Check Claim</a></div>\n                            </div>\n                        </form><!---Formbuilder Form--->\n                    </div>\n                    <div class=\"media-container-row privacy justify-content-start\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".privacy\">ClaimM4</p>\n                        <p class=\"mbr-fonts-style rights\" mbr-theme-style=\"display-7\" data-app-selector=\".privacy\">All rights reserved</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgRw7trFWm",
+          "_anchor": "form1-c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
